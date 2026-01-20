@@ -1,4 +1,4 @@
-# Linux is the foundation
+# Linux foundation
 
 ## Introduction
 
