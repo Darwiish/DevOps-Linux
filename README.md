@@ -28,9 +28,11 @@ Terminal → Interface to enter commands
 
 Distributions (Distros) → Ubuntu, CentOS, Debian, Amazon Linux
 
+```markdown
 Commands & Examples
 uname -a     # Kernel and system info
 whoami      # Current user
+```
 
 ### 2. File System Structure
 
@@ -50,6 +52,7 @@ Linux organizes data hierarchically:
 
 /tmp → Temporary files
 
+```markdown 
 Commands
 pwd          # Show current directory
 ls -l        # List files with details
@@ -58,7 +61,7 @@ mkdir test   # Create directory
 rm file.txt  # Remove file
 cp a b       # Copy file
 mv a b       # Move/rename file
-
+```
 
 DevOps Use:
 Organizing project folders, deploying files, backup scripts
