@@ -84,17 +84,19 @@ Group (g)
 
 Others (o)
 
+```markdown
 Commands
 ls -l                 # View file permissions
 chmod 755 file.sh     # Change permissions (rwxr-xr-x)
 chown user:group f    # Change ownership
-
+```
 Example
 
 Only owner can read/write, others read-only:
 
+```markdown
 chmod 644 file.txt
-
+```
 
 DevOps Use:
 Secure scripts, limit access to production servers
@@ -102,7 +104,7 @@ Secure scripts, limit access to production servers
 ### 4. Processes & Services
 
 Linux runs background processes and services.
-
+```markdown
 Commands
 ps aux                  # List processes
 top                     # Monitor processes
@@ -110,7 +112,7 @@ kill <PID>              # Kill process by ID
 systemctl start nginx   # Start service
 systemctl stop nginx    # Stop service
 systemctl status nginx  # Check status
-
+```
 
 DevOps Use:
 Monitor services, manage deployments, kill stuck processes
@@ -120,14 +122,16 @@ Monitor services, manage deployments, kill stuck processes
 Install and update software using package managers.
 
 Ubuntu / Debian (apt)
+```markdown
 sudo apt update
 sudo apt upgrade -y
 sudo apt install nginx -y
-
+```
 CentOS / Amazon Linux (yum)
+```markdown
 sudo yum update -y
 sudo yum install nginx -y
-
+```
 
 DevOps Use:
 Install dependencies, automate CI/CD pipelines
@@ -135,6 +139,7 @@ Install dependencies, automate CI/CD pipelines
 ### 6. Users & Groups
 
 Linux is multi-user; permissions are group-controlled.
+```markdown
 
 Commands
 whoami                   # Show current user
@@ -143,7 +148,7 @@ adduser devops           # Create user
 passwd devops            # Set password
 usermod -aG sudo devops  # Add to sudoers
 groups                   # Show groups
-
+```
 
 DevOps Use:
 Secure production servers, automate tasks, manage teams
@@ -159,6 +164,7 @@ PATH → Executable locations
 HOME → User home directory
 
 DB_HOST → Custom database host
+```markdown
 
 Commands
 printenv                 # List all variables
@@ -166,7 +172,7 @@ echo $VAR_NAME           # View variable
 VAR_NAME=value           # Set for session
 export VAR_NAME=value    # Available to child processes
 unset VAR_NAME           # Remove variable
-
+```
 
 DevOps Use:
 Config management, secrets, CI/CD pipelines
@@ -185,12 +191,12 @@ Octal (Base 8)
 Values 0–7
 
 Decimal 64 → Octal 100
+```markdown
 
 Example:
 
 chmod 755 file.sh
-
-
+```
 DevOps Use:
 Permissions, low-level configs, scripting
 
