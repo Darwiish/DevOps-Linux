@@ -2,21 +2,21 @@
 
 ## Introduction
 
-Linux is an open-source operating system that:
+* Linux is an open-source operating system that:
 
-Manages hardware and runs applications
+* Manages hardware and runs applications
 
-Enables networking
+* Enables networking
 
-Powers servers, cloud platforms, and containers
+* Powers servers, cloud platforms, and containers
 
-Why DevOps Needs Linux
+* Why DevOps Needs Linux
 
-Most cloud servers (AWS, Azure, GCP) run Linux
+* Most cloud servers (AWS, Azure, GCP) run Linux
 
-Tools like Docker, Kubernetes, Ansible rely on Linux
+* Tools like Docker, Kubernetes, Ansible rely on Linux
 
-Networking, security, and automation tasks run best on Linux
+* Networking, security, and automation tasks run best on Linux
 
 ### 1. Linux Basics
 
@@ -28,7 +28,7 @@ Terminal → Interface to enter commands
 
 Distributions (Distros) → Ubuntu, CentOS, Debian, Amazon Linux
 
-Commands & Examples
+## Commands & Examples
 ```markdown
 uname -a     # Kernel and system info
 whoami      # Current user
@@ -52,7 +52,7 @@ Linux organizes data hierarchically:
 
 /tmp → Temporary files
 
-Commands
+## Commands
 ```markdown
 pwd          # Show current directory
 ls -l        # List files with details
@@ -84,14 +84,13 @@ Group (g)
 
 Others (o)
 
-Commands
+## Commands
 ```markdown
 ls -l                 # View file permissions
 chmod 755 file.sh     # Change permissions (rwxr-xr-x)
 chown user:group f    # Change ownership
 ```
-Example
-
+## Example
 Only owner can read/write, others read-only:
 ```markdown
 chmod 644 file.txt
@@ -101,7 +100,7 @@ Secure scripts, limit access to production servers
 
 ### 4. Processes & Services
 Linux runs background processes and services.
-Commands
+## Commands
 ```markdown
 ps aux                  # List processes
 top                     # Monitor processes
@@ -115,13 +114,13 @@ Monitor services, manage deployments, kill stuck processes
 
 ### 5. Package Management
 Install and update software using package managers.
-Ubuntu / Debian (apt)
+## Ubuntu / Debian (apt)
 ```markdown
 sudo apt update
 sudo apt upgrade -y
 sudo apt install nginx -y
 ```
-CentOS / Amazon Linux (yum)
+## CentOS / Amazon Linux (yum)
 ```markdown
 sudo yum update -y
 sudo yum install nginx -y
@@ -132,7 +131,7 @@ Install dependencies, automate CI/CD pipelines
 
 ### 6. Users & Groups
 
-Linux is multi-user; permissions are group-controlled.
+## Linux is multi-user; permissions are group-controlled.
 Commands
 ```markdown
 whoami                   # Show current user
@@ -157,7 +156,7 @@ PATH → Executable locations
 HOME → User home directory
 
 DB_HOST → Custom database host
-Commands
+## Commands
 ```markdown
 printenv                 # List all variables
 echo $VAR_NAME           # View variable
@@ -183,7 +182,8 @@ Octal (Base 8)
 Values 0–7
 
 Decimal 64 → Octal 100
-Example:
+
+## Example:
 ```markdown
 chmod 755 file.sh
 ```
