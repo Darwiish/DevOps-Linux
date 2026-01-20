@@ -28,8 +28,8 @@ Terminal → Interface to enter commands
 
 Distributions (Distros) → Ubuntu, CentOS, Debian, Amazon Linux
 
-```markdown
 Commands & Examples
+```markdown
 uname -a     # Kernel and system info
 whoami      # Current user
 ```
@@ -52,8 +52,8 @@ Linux organizes data hierarchically:
 
 /tmp → Temporary files
 
-```markdown 
 Commands
+```markdown
 pwd          # Show current directory
 ls -l        # List files with details
 cd /path     # Change directory
@@ -84,8 +84,8 @@ Group (g)
 
 Others (o)
 
-```markdown
 Commands
+```markdown
 ls -l                 # View file permissions
 chmod 755 file.sh     # Change permissions (rwxr-xr-x)
 chown user:group f    # Change ownership
@@ -93,7 +93,6 @@ chown user:group f    # Change ownership
 Example
 
 Only owner can read/write, others read-only:
-
 ```markdown
 chmod 644 file.txt
 ```
@@ -102,8 +101,8 @@ Secure scripts, limit access to production servers
 
 ### 4. Processes & Services
 Linux runs background processes and services.
-```markdown
 Commands
+```markdown
 ps aux                  # List processes
 top                     # Monitor processes
 kill <PID>              # Kill process by ID
@@ -134,8 +133,8 @@ Install dependencies, automate CI/CD pipelines
 ### 6. Users & Groups
 
 Linux is multi-user; permissions are group-controlled.
-```markdown
 Commands
+```markdown
 whoami                   # Show current user
 id                       # Show user & groups
 adduser devops           # Create user
@@ -158,9 +157,8 @@ PATH → Executable locations
 HOME → User home directory
 
 DB_HOST → Custom database host
-```markdown
-
 Commands
+```markdown
 printenv                 # List all variables
 echo $VAR_NAME           # View variable
 VAR_NAME=value           # Set for session
@@ -185,10 +183,8 @@ Octal (Base 8)
 Values 0–7
 
 Decimal 64 → Octal 100
-```markdown
-
 Example:
-
+```markdown
 chmod 755 file.sh
 ```
 DevOps Use:
