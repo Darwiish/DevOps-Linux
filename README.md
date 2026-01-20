@@ -1,6 +1,7 @@
 # Linux foundation
-
+---
 ## Introduction
+***
 
 * Linux is an open-source operating system that:
 
@@ -17,6 +18,7 @@
 * Tools like Docker, Kubernetes, Ansible rely on Linux
 
 * Networking, security, and automation tasks run best on Linux
+___
 
 ### 1. Linux Basics
 
