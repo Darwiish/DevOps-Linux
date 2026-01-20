@@ -25,6 +25,7 @@ ___
 Kernel → Core of Linux; communicates with hardware
 
 Shell → Command interpreter (bash, zsh)
+___
 
 Terminal → Interface to enter commands
 
