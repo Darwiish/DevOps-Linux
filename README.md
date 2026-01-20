@@ -97,12 +97,10 @@ Only owner can read/write, others read-only:
 ```markdown
 chmod 644 file.txt
 ```
-
 DevOps Use:
 Secure scripts, limit access to production servers
 
 ### 4. Processes & Services
-
 Linux runs background processes and services.
 ```markdown
 Commands
@@ -113,14 +111,11 @@ systemctl start nginx   # Start service
 systemctl stop nginx    # Stop service
 systemctl status nginx  # Check status
 ```
-
 DevOps Use:
 Monitor services, manage deployments, kill stuck processes
 
 ### 5. Package Management
-
 Install and update software using package managers.
-
 Ubuntu / Debian (apt)
 ```markdown
 sudo apt update
@@ -140,7 +135,6 @@ Install dependencies, automate CI/CD pipelines
 
 Linux is multi-user; permissions are group-controlled.
 ```markdown
-
 Commands
 whoami                   # Show current user
 id                       # Show user & groups
