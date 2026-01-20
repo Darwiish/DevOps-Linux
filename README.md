@@ -19,7 +19,7 @@
 
 * Networking, security, and automation tasks run best on Linux
   
-
+***
 ### 1. Linux Basics
 
 Kernel → Core of Linux; communicates with hardware
@@ -35,7 +35,8 @@ Distributions (Distros) → Ubuntu, CentOS, Debian, Amazon Linux
 uname -a     # Kernel and system info
 whoami      # Current user
 ```
-
+---
+___
 ### 2. File System Structure
 
 Linux organizes data hierarchically:
