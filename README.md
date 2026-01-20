@@ -1,7 +1,7 @@
 # Linux foundation
 
 ## Introduction
-***
+___
 
 * Linux is an open-source operating system that:
 
@@ -19,7 +19,7 @@
 
 * Networking, security, and automation tasks run best on Linux
   
-***
+___
 ### 1. Linux Basics
 
 Kernel → Core of Linux; communicates with hardware
@@ -35,7 +35,6 @@ Distributions (Distros) → Ubuntu, CentOS, Debian, Amazon Linux
 uname -a     # Kernel and system info
 whoami      # Current user
 ```
----
 ___
 ### 2. File System Structure
 
@@ -68,7 +67,7 @@ mv a b       # Move/rename file
 
 DevOps Use:
 Organizing project folders, deploying files, backup scripts
-
+___
 ### 3. File Permissions
 
 Each file has permissions:
@@ -100,7 +99,7 @@ chmod 644 file.txt
 ```
 DevOps Use:
 Secure scripts, limit access to production servers
-
+___
 ### 4. Processes & Services
 Linux runs background processes and services.
 ## Commands
@@ -114,7 +113,7 @@ systemctl status nginx  # Check status
 ```
 DevOps Use:
 Monitor services, manage deployments, kill stuck processes
-
+___
 ### 5. Package Management
 Install and update software using package managers.
 ## Ubuntu / Debian (apt)
@@ -131,9 +130,8 @@ sudo yum install nginx -y
 
 DevOps Use:
 Install dependencies, automate CI/CD pipelines
-
+___
 ### 6. Users & Groups
-
 ## Linux is multi-user; permissions are group-controlled.
 Commands
 ```markdown
@@ -144,10 +142,9 @@ passwd devops            # Set password
 usermod -aG sudo devops  # Add to sudoers
 groups                   # Show groups
 ```
-
 DevOps Use:
 Secure production servers, automate tasks, manage teams
-
+___
 ### 7. Environment Variables
 
 Dynamic values that configure programs without hardcoding.
@@ -170,7 +167,7 @@ unset VAR_NAME           # Remove variable
 
 DevOps Use:
 Config management, secrets, CI/CD pipelines
-
+___
 ### 8. Binary & Octal Representation
 Binary (Base 2)
 
@@ -192,7 +189,7 @@ chmod 755 file.sh
 ```
 DevOps Use:
 Permissions, low-level configs, scripting
-
+___
 ### 9. Basic Linux Commands
 Command	Usage	DevOps Use
 mkdir	mkdir test	Create project folders
@@ -201,7 +198,7 @@ mv	mv old new	Rename deployments
 rm	rm file	Clean old files
 ls	ls -l	Validate deployments
 pwd	pwd	Ensure correct directory
-
+___
 ### 10. Programs, Binaries & Shells
 
 Programs → Execute tasks (editors, scripts)
@@ -212,7 +209,7 @@ Shells → Command interpreters (bash, zsh)
 
 DevOps Use:
 Automation, scripting, server management
-
+___
 ### 11. Configuration Files
 
 Store settings for applications and services:
@@ -225,7 +222,7 @@ config.yaml
 
 DevOps Use:
 Separate config from code, enable automation, manage environments
-
+___
 ### 12. Exercises / Practice
 Recommended Practice
 
