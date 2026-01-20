@@ -244,4 +244,4 @@ Text processing (awk, sed)
 Repetition builds confidence — Linux is the foundation of all DevOps practices.
 ___
 ## summary
-Lnux is the foundation of DevOps, powering cloud servers, containers, and automation tools. DevOps engineers use Linux to manage systems, control permissions, run services, and automate deployments securely and efficiently.
+Linux is the foundation of DevOps, powering cloud servers, containers, and automation tools. DevOps engineers use Linux to manage systems, control permissions, run services, and automate deployments securely and efficiently.
